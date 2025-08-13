@@ -1,0 +1,181 @@
+For a 10+ years experienced Java developer, interviewers often go beyond syntax and basic APIs—they expect you to know system design, performance tuning, architecture decisions, concurrency pitfalls, JVM internals, frameworks, and integration patterns.
+
+I’ll break it into key topics with example questions you could expect, grouped for depth.
+
+
+---
+
+1. Core Java & Advanced Concepts
+
+Java 8–21 features
+
+How does CompletableFuture differ from Future?
+
+Explain functional interfaces and method references.
+
+What is the difference between Stream.of() and Stream.generate()?
+
+Explain var, record, sealed classes (Java 14+).
+
+
+Collections & Performance
+
+Difference between HashMap, ConcurrentHashMap, and Hashtable.
+
+Internal working of HashMap in Java 8 (treeification).
+
+How does CopyOnWriteArrayList work and when to use it?
+
+How to detect and fix ConcurrentModificationException?
+
+
+Concurrency & Multithreading
+
+Difference between synchronized block, ReentrantLock, and StampedLock.
+
+Explain Java Memory Model (JMM) and volatile.
+
+How does ThreadLocal work internally and when is it dangerous?
+
+Fork/Join framework—use cases and pitfalls.
+
+How does ThreadPoolExecutor manage threads and queues?
+
+
+JVM Internals
+
+Explain class loading process (Bootstrap, Extension, Application ClassLoader).
+
+What are Metaspace and PermGen?
+
+Explain Garbage Collection algorithms (G1, ZGC, Shenandoah) and tuning.
+
+How to detect and fix memory leaks in Java? Tools used?
+
+
+
+
+---
+
+2. Spring & Frameworks
+
+Spring Core & Boot
+
+Difference between @Component, @Service, and @Repository.
+
+Explain the Bean lifecycle and scopes in Spring.
+
+How does Spring Dependency Injection work internally?
+
+Difference between @Transactional(propagation = REQUIRES_NEW) vs MANDATORY.
+
+How does Spring Boot autoconfiguration work?
+
+
+Spring Data & JPA
+
+Difference between EntityManager and Session.
+
+Lazy loading vs Eager loading—performance implications.
+
+How does dirty checking work in Hibernate?
+
+How to handle N+1 select problem?
+
+
+Spring Security
+
+OAuth2 flows in Spring Security.
+
+How JWT works—structure, signature, and expiry handling.
+
+
+
+
+---
+
+3. Architecture & System Design
+
+Design a high-throughput order processing system—how would you ensure scalability?
+
+How would you design microservices communication—when to use REST, gRPC, Kafka?
+
+How do you ensure idempotency in APIs?
+
+Explain circuit breaker patterns and their implementation in Spring Cloud.
+
+CAP theorem—how does it affect distributed Java systems?
+
+How do you design a distributed cache in a microservices ecosystem?
+
+
+
+---
+
+4. Performance & Scalability
+
+How to identify bottlenecks in Java applications (tools like JVisualVM, Flight Recorder).
+
+How to handle high CPU usage caused by GC?
+
+How to implement connection pooling effectively?
+
+When would you prefer reactive programming (Project Reactor, WebFlux) over blocking I/O?
+
+
+
+---
+
+5. Messaging, Integration, & Cloud
+
+Kafka: How does consumer group rebalancing work?
+
+How do you ensure exactly-once delivery in Kafka?
+
+How would you handle eventual consistency in distributed transactions?
+
+Difference between Saga pattern and 2-phase commit in microservices.
+
+
+
+---
+
+6. Testing & DevOps Awareness
+
+How to write contract tests for microservices?
+
+Difference between unit tests, integration tests, and component tests.
+
+How does CI/CD pipeline integrate with Java builds?
+
+
+
+---
+
+7. Scenario-Based Questions
+
+You have a memory leak in production—how do you approach finding the root cause?
+
+API response times are spiking suddenly—how do you troubleshoot?
+
+You need to migrate a monolith to microservices—what steps will you take?
+
+
+
+---
+
+If you want, I can prepare a full-blown “10 years Java interview prep kit” with:
+
+Detailed answers to each question above
+
+Code snippets where applicable
+
+Architecture diagrams for system design problems
+
+Cheat sheets for JVM tuning & Spring best practices
+
+
+That way you can walk into the interview with both deep technical recall and scenario handling confidence.
+
+Do you want me to prepare that next?
+
